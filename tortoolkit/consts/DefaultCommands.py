@@ -3,7 +3,7 @@ class Commands:
     PURGE = "purge2"
     PAUSEALL = "pauseall2"
     RESUMEALL = "resumeall2"
-    STATUS = "status"
+    STATUS = "status2"
     SETTINGS = "settings2"
     EXEC = "exec2"
     UPLOAD = "upload2"
