@@ -643,7 +643,7 @@ async def set_password_zip(message):
 
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkitX running on heroku an instance of <a href='https://github.com/XcodersHub/TorToolkitX'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is TorToolkitX running on heroku an instance."
     await event.reply(msg, parse_mode="html")
 
 
@@ -931,7 +931,7 @@ async def booted(client):
     chats = get_val("ALD_USR")
     for i in chats:
         try:
-            await client.send_message(i, "The bot is booted and is ready to use.")
+            await client.send_message(i, "Unkil's Bot Restarted and Ready to be Used.")
         except Exception:
             torlog.info(f"Not found the entity {i}")
 
